@@ -16,8 +16,6 @@ class _LoadingScreenState extends State<LoadingScreen> {
   void getData() async {
     var currencyData = await s.getData();
 
-    print(currencyData);
-
     Navigator.push(
       context,
       MaterialPageRoute(

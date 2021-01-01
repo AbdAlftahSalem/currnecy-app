@@ -187,7 +187,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 if (snapShot.data == null) {
                   return Center(
                     child: SpinKitRotatingCircle(
-                      color: Colors.white,
+                      color: Color(0xFF677DB7),
                       size: 100.0,
                     ),
                   );

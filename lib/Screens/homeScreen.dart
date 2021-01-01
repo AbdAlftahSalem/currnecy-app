@@ -25,12 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<List<String>> comeData() {
     return data.get1USD(widget.allData);
   }
-@override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    print(widget.allData);
-  }
+
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
@@ -158,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
               if (snapShot.data == null) {
                 return Center(
                   child: SpinKitRotatingCircle(
-                    color: Colors.white,
+                    color: Color(0xFF677DB7),
                     size: 100.0,
                   ),
                 );
